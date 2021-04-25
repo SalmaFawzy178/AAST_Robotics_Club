@@ -1,0 +1,104 @@
+#header {
+    position: fixed;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    width: 100%;
+    height: 80px;
+    z-index: 999;
+}
+#header #logo {
+    position: absolute;
+    width: auto;
+    height: 70px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 5%;
+}
+#header #mob_btn {
+    position: absolute;
+    top: 15px;
+    right: 80px;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    font-family: "Ubuntu";
+}
+#header #mob_btn div {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+    cursor: pointer;
+    user-select: none;
+    font-family: "Ubuntu";
+}
+#menu {
+    transition: 0.5s;
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    right: 0px;
+    background-color: white;
+    border-top: 2px solid #60b0f1;
+    max-height: 0px;
+    overflow: hidden;
+    font-family: "Ubuntu";
+}
+#menu ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-end: 0px;
+    margin-inline-start: 0px;
+    padding-inline-start: 40px;
+    font-family: "Ubuntu"
+}
+#menu a {
+    position: relative;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+}
+#content {
+    margin-top: 80px;
+}
+#content #p1 {
+  clear: both;
+  width: 75%;
+  margin-top: 100px;
+  margin-left: 12.5%;
+  text-align: center;
+  color: #60b0f1;
+  font-size: 1.5em;
+  margin-block-end: 0.83em;
+  margin-block-start: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Ubuntu";
+
+}
+#footer p3{
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-weight: 700;
+  color: inherit;
+}
+#footer p4{
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Raleway", sans-serif;
+  color: inherit;
+}
+#footer {
+  background: #1c9999;
+  padding: 0 0 30px 0;
+  color: #fff;
+  font-size: 14px;
+}
